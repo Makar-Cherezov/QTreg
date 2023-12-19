@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>854</width>
+    <height>441</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>300</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Запустить совмещение</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openSrcDir">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Выбрать исходный
+объём</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openRefDir">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>130</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать объём
+после деформации</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="srcPathLabel">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>70</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Путь к папке исходного объёма</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="refPathLabel">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>160</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Путь к папке деформированного объёма</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OpenSaveDir">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить как</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="saveLabel">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>230</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Имя конечного файла&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>854</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
